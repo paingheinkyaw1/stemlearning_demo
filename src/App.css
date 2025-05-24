@@ -17,27 +17,33 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;  /* This vertically centers everything */
   padding: 1rem 2rem;
-  background: #F5F5DC;
+  background: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
   font-weight: bold;
-  color: #216933;
+  font-size: 1.8rem;  /* Increased size */
+  color: #228B22;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
   gap: 1.5rem;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar li {
   cursor: pointer;
-  color: #228B22; /* Forest green */
+  color: #228B22;
   font-weight: 500;
+  font-size: 1rem;
 }
+
 
 .navbar li:hover {
   text-decoration: underline;

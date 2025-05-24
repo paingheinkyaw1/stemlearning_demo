@@ -1,8 +1,9 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background: #f5f6f7;
+  background-color: #f0fdf4; /* Soft green-tinted white */
 }
+
 
 .navbar {
   display: flex;
@@ -25,5 +26,11 @@ body {
 
 .navbar li {
   cursor: pointer;
-  color: #216933;
+  color: #228B22; /* Forest green */
+  font-weight: 500;
 }
+
+.navbar li:hover {
+  text-decoration: underline;
+}
+

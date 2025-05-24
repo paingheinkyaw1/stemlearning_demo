@@ -1,18 +1,31 @@
 .hero {
   padding: 3rem 2rem;
   background: white;
-  text-align: center;
 }
 
-.hero h1 {
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-left h1 {
   font-size: 2.5rem;
+  margin-bottom: 1rem;
   color: #222;
 }
 
-.hero p {
+.hero-left p {
   font-size: 1.1rem;
+  margin-bottom: 1rem;
   color: #444;
-  margin: 1rem 0;
 }
 
 .demo-btn {
@@ -23,13 +36,17 @@
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
-  margin-bottom: 2rem;
 }
 
-.hero-image img {
+.hero-right {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.hero-right img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 2rem;
 }
 
 .features {
@@ -37,11 +54,5 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-}
-
-.feature-card {
-  display: flex;
-  gap: 1rem;
-  max-width: 280px;
-  text-align: left;
+  margin-top: 3rem;
 }

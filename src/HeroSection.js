@@ -1,6 +1,7 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
 import "./HeroSection.css";
+import LaptopKidImage from './assets/laptop-kid.png';
 
 function HeroSection() {
   return (
@@ -31,11 +32,7 @@ function HeroSection() {
         </div>
       </div>
       <div className="hero-right">
-<img
-  src="https://storyset.com/illustration/online-learning/bro"
-  alt="Child using laptop"
-  style={{ maxWidth: '100%', height: 'auto' }}
-/>
+        <img src={LaptopKidImage} alt="Child using laptop" />
       </div>
     </div>
   );

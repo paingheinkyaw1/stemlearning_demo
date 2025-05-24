@@ -1,18 +1,10 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #F5F5DC; /* Beige */
+  background-color: #eaf5ea; /* Beige */
 }
 
-#root {
-  min-height: 100vh;
-  background-color: #F5F5DC;
-}
 
-.App {
-  min-height: 100vh;
-  background-color: #F5F5DC;
-}
 
 .navbar {
   display: flex;

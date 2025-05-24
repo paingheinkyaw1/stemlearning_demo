@@ -1,16 +1,17 @@
 body {
   margin: 0;
-  background-color: #FFF3E9; /* skin-tone */
+  font-family: 'Arial', sans-serif;
+  background-color: #F5F5DC; /* Beige */
 }
 
 #root {
   min-height: 100vh;
-  background-color: #FFF3E9;
+  background-color: #F5F5DC;
 }
 
 .App {
   min-height: 100vh;
-  background-color: #FFF3E9;
+  background-color: #F5F5DC;
 }
 
 .navbar {

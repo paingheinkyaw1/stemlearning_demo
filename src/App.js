@@ -15,7 +15,7 @@ function App() {
           <li>Log in</li>
         </ul>
       </nav>
-      <HeroSection />
+      <HeroSection/>
     </div>
   );
 }

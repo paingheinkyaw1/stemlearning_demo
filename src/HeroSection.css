@@ -1,23 +1,18 @@
 .hero {
-  display: flex;
   padding: 3rem 2rem;
   background: white;
+  text-align: center;
 }
 
-.hero-left {
-  flex: 1;
-  padding-right: 2rem;
-}
-
-.hero-left h1 {
+.hero h1 {
   font-size: 2.5rem;
   color: #222;
 }
 
-.hero-left p {
+.hero p {
   font-size: 1.1rem;
-  margin: 1rem 0;
   color: #444;
+  margin: 1rem 0;
 }
 
 .demo-btn {
@@ -31,24 +26,22 @@
   margin-bottom: 2rem;
 }
 
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
 .features {
   display: flex;
-  gap: 2rem;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .feature-card {
   display: flex;
   gap: 1rem;
-  align-items: flex-start;
-  max-width: 250px;
-}
-
-.feature-card .icon {
-  font-size: 1.5rem;
-}
-
-.hero-right img {
-  max-width: 100%;
-  height: auto;
+  max-width: 280px;
+  text-align: left;
 }

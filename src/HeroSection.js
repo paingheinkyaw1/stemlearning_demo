@@ -31,7 +31,11 @@ function HeroSection() {
         </div>
       </div>
       <div className="hero-right">
-        <img src="https://i.imgur.com/GmMZxkk.png" alt="Illustration" />
+<img
+  src="https://storyset.com/illustration/online-learning/bro"
+  alt="Child using laptop"
+  style={{ maxWidth: '100%', height: 'auto' }}
+/>
       </div>
     </div>
   );

@@ -1,7 +1,16 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-background-color: #FFF3E9;
+  background-color: #FFF3E9; /* skin-tone */
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #FFF3E9;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #FFF3E9;
 }
 
 .navbar {

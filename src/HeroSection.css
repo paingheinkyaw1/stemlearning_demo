@@ -1,0 +1,54 @@
+.hero {
+  display: flex;
+  padding: 3rem 2rem;
+  background: white;
+}
+
+.hero-left {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.hero-left h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.hero-left p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: #444;
+}
+
+.demo-btn {
+  background: #228b22;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  max-width: 250px;
+}
+
+.feature-card .icon {
+  font-size: 1.5rem;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+}
